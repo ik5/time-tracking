@@ -1,0 +1,6 @@
+time track is a program written in Lazarus and tiopf to allow people to track 
+projects.
+
+It uses Firebird SQL as a database engine.
+
+Written by Michael Van Canneyt 

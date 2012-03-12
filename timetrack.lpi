@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <SaveOnlyProjectUnits Value="True"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <AutoCreateForms Value="False"/>
+      <Title Value="Time tracker"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="LCLBase"/>
+        <MinVersion Major="1" Release="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="tiopfLCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="tiOPF"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="timetrack.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="timetrack"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmmain.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmmain"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="apptracker.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="apptracker"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="baseopf.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="baseopf"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="mdlinterrupt.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdlinterrupt"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="mdlperson.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdlperson"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="mdlproject.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdlproject"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="mdltimetrack.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdltimetrack"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="mdltodo.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdltodo"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="visitors.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="visitors"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="frmperson.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PersonForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmperson"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="frmedit.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="frmedit"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="frmtodo.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TOdoForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmtodo"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="frmproject.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ProjectForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmproject"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="medmenu.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="medmenu"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="mdltask.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdltask"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="frmtask.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TaskForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmtask"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="frmconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TimeTrackerConfigForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmconfig"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="frmtasktrack.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TaskTimeTrackForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmtasktrack"/>
+      </Unit18>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

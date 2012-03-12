@@ -1,0 +1,62 @@
+object PersonForm: TPersonForm
+  Left = 377
+  Height = 174
+  Top = 315
+  Width = 475
+  ActiveControl = EFirstname
+  Caption = 'Editing person'
+  ClientHeight = 174
+  ClientWidth = 475
+  LCLVersion = '0.9.29'
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 34
+    Top = 134
+    Width = 463
+    OKButton.Name = 'OKButton'
+    OKButton.Caption = '&OK'
+    HelpButton.Name = 'HelpButton'
+    HelpButton.Caption = '&Help'
+    HelpButton.Enabled = False
+    CloseButton.Name = 'CloseButton'
+    CloseButton.Caption = '&Close'
+    CloseButton.Enabled = False
+    CancelButton.Name = 'CancelButton'
+    CancelButton.Caption = 'Cancel'
+    TabOrder = 2
+    ShowButtons = [pbOK, pbCancel]
+    ShowGlyphs = [pbOK, pbCancel]
+  end
+  object EFirstname: TEdit
+    Left = 16
+    Height = 22
+    Top = 32
+    Width = 440
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 8
+    Width = 61
+    Caption = '&First name'
+    FocusControl = EFirstname
+    ParentColor = False
+  end
+  object ELastname: TEdit
+    Left = 16
+    Height = 22
+    Top = 88
+    Width = 440
+    TabOrder = 1
+  end
+  object LELastName: TLabel
+    Left = 16
+    Height = 15
+    Top = 64
+    Width = 61
+    Caption = 'Last name'
+    FocusControl = ELastname
+    ParentColor = False
+  end
+end

@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="19">
+      <Unit0>
+        <Filename Value="timetrack.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="timetrack"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmmain.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmmain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="530"/>
+        <CursorPos X="24" Y="546"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="apptracker.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="apptracker"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="baseopf.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="baseopf"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="mdlinterrupt.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdlinterrupt"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="mdlperson.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdlperson"/>
+        <UsageCount Value="20"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="mdlproject.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdlproject"/>
+        <UsageCount Value="20"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="mdltimetrack.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdltimetrack"/>
+        <UsageCount Value="20"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="mdltodo.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdltodo"/>
+        <UsageCount Value="20"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="visitors.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="visitors"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="158"/>
+        <CursorPos X="1" Y="178"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="frmperson.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PersonForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmperson"/>
+        <UsageCount Value="20"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="frmedit.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="frmedit"/>
+        <UsageCount Value="20"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="frmtodo.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TOdoForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmtodo"/>
+        <UsageCount Value="20"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="frmproject.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ProjectForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmproject"/>
+        <UsageCount Value="20"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="medmenu.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="medmenu"/>
+        <UsageCount Value="20"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="mdltask.pp"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="mdltask"/>
+        <UsageCount Value="20"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="frmtask.pp"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TaskForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmtask"/>
+        <UsageCount Value="20"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="frmconfig.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TimeTrackerConfigForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmconfig"/>
+        <UsageCount Value="20"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="frmtasktrack.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="TaskTimeTrackForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmtasktrack"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="22" Y="11"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit18>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+  </ProjectSession>
+</CONFIG>

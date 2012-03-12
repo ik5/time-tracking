@@ -1,0 +1,44 @@
+object ProjectForm: TProjectForm
+  Left = 447
+  Height = 151
+  Top = 195
+  Width = 474
+  Caption = 'Modify form'
+  ClientHeight = 151
+  ClientWidth = 474
+  LCLVersion = '0.9.29'
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 34
+    Top = 111
+    Width = 462
+    OKButton.Name = 'OKButton'
+    OKButton.Caption = '&OK'
+    HelpButton.Name = 'HelpButton'
+    HelpButton.Caption = '&Help'
+    HelpButton.Enabled = False
+    CloseButton.Name = 'CloseButton'
+    CloseButton.Caption = '&Close'
+    CloseButton.Enabled = False
+    CancelButton.Name = 'CancelButton'
+    CancelButton.Caption = 'Cancel'
+    TabOrder = 0
+    ShowButtons = [pbOK, pbCancel]
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 15
+    Top = 16
+    Width = 77
+    Caption = '&Project Name'
+    ParentColor = False
+  end
+  object EName: TEdit
+    Left = 16
+    Height = 22
+    Top = 40
+    Width = 424
+    TabOrder = 1
+    Text = 'EName'
+  end
+end

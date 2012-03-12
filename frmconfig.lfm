@@ -1,0 +1,157 @@
+object TimeTrackerConfigForm: TTimeTrackerConfigForm
+  Left = 444
+  Height = 301
+  Top = 274
+  Width = 611
+  Caption = 'TimeTracker Configuration'
+  ClientHeight = 301
+  ClientWidth = 611
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '0.9.31'
+  object BPConfig: TButtonPanel
+    Left = 6
+    Height = 35
+    Top = 260
+    Width = 599
+    OKButton.Name = 'OKButton'
+    OKButton.Caption = '&OK'
+    HelpButton.Name = 'HelpButton'
+    HelpButton.Caption = '&Help'
+    HelpButton.Enabled = False
+    CloseButton.Name = 'CloseButton'
+    CloseButton.Caption = '&Close'
+    CloseButton.Enabled = False
+    CancelButton.Name = 'CancelButton'
+    CancelButton.Caption = 'Cancel'
+    TabOrder = 0
+    ShowButtons = [pbOK, pbCancel]
+  end
+  object FEDB: TFileNameEdit
+    Left = 153
+    Height = 25
+    Top = 24
+    Width = 424
+    DialogOptions = []
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 0
+    MaxLength = 0
+    TabOrder = 1
+  end
+  object EUserName: TEdit
+    Left = 152
+    Height = 25
+    Top = 57
+    Width = 236
+    TabOrder = 2
+    Text = 'EUserName'
+  end
+  object EPassWord: TEdit
+    Left = 153
+    Height = 25
+    Top = 94
+    Width = 235
+    TabOrder = 3
+    Text = 'EPassWord'
+  end
+  object CBLimitTracking: TCheckBox
+    Left = 153
+    Height = 22
+    Top = 160
+    Width = 352
+    AutoSize = False
+    Caption = 'Limit task tracking to end of day'
+    TabOrder = 4
+  end
+  object EEndOfWorkingDay: TEdit
+    Left = 156
+    Height = 25
+    Top = 184
+    Width = 80
+    TabOrder = 5
+    Text = 'EEndOfWorkingDay'
+  end
+  object SEInterruptTimeOut: TSpinEdit
+    Left = 156
+    Height = 25
+    Top = 128
+    Width = 50
+    TabOrder = 6
+  end
+  object LFEDB: TLabel
+    Left = 80
+    Height = 26
+    Top = 24
+    Width = 67
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = '&Database'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object LEUserName: TLabel
+    Left = 71
+    Height = 26
+    Top = 57
+    Width = 76
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = '&User name'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object LEPassword: TLabel
+    Left = 80
+    Height = 26
+    Top = 94
+    Width = 67
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = '&Password'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object LSEInterruptTimeout: TLabel
+    Left = 30
+    Height = 26
+    Top = 128
+    Width = 117
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Interrupt &timeout'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object LEEndOfWorkingDay: TLabel
+    Left = 16
+    Height = 26
+    Top = 184
+    Width = 131
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'End of working day'
+    Layout = tlCenter
+    ParentColor = False
+  end
+  object SEWeeksOfInterrupts: TSpinEdit
+    Left = 158
+    Height = 25
+    Top = 216
+    Width = 50
+    TabOrder = 7
+  end
+  object LSEInterruptTimeout1: TLabel
+    Left = 8
+    Height = 26
+    Top = 216
+    Width = 141
+    Alignment = taRightJustify
+    AutoSize = False
+    Caption = 'Interrupt # weeks'
+    Layout = tlCenter
+    ParentColor = False
+  end
+end

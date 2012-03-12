@@ -1,0 +1,110 @@
+object TaskTimeTrackForm: TTaskTimeTrackForm
+  Left = 503
+  Height = 268
+  Top = 320
+  Width = 501
+  Caption = 'Task time tracking'
+  ClientHeight = 268
+  ClientWidth = 501
+  Position = poMainFormCenter
+  LCLVersion = '0.9.31'
+  object BPTaskTrack: TButtonPanel
+    Left = 6
+    Height = 36
+    Top = 226
+    Width = 489
+    OKButton.Name = 'OKButton'
+    OKButton.Caption = '&OK'
+    OKButton.Enabled = False
+    HelpButton.Name = 'HelpButton'
+    HelpButton.Caption = '&Help'
+    HelpButton.Enabled = False
+    CloseButton.Name = 'CloseButton'
+    CloseButton.Caption = '&Close'
+    CancelButton.Name = 'CancelButton'
+    CancelButton.Caption = 'Cancel'
+    CancelButton.Enabled = False
+    TabOrder = 0
+    ShowButtons = [pbClose]
+  end
+  object PStats: TPanel
+    Left = 0
+    Height = 38
+    Top = 182
+    Width = 501
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 38
+    ClientWidth = 501
+    TabOrder = 1
+    object LLTotalTime: TLabel
+      Left = 32
+      Height = 19
+      Top = 11
+      Width = 67
+      Alignment = taRightJustify
+      Caption = 'Total time'
+      ParentColor = False
+    end
+    object LTotalTime: TLabel
+      Left = 105
+      Height = 19
+      Top = 11
+      Width = 72
+      Caption = 'LTotalTime'
+      ParentColor = False
+    end
+    object LLIndays: TLabel
+      Left = 280
+      Height = 19
+      Top = 11
+      Width = 49
+      Caption = 'In days'
+      ParentColor = False
+    end
+    object LInDays: TLabel
+      Left = 336
+      Height = 19
+      Top = 11
+      Width = 54
+      Caption = 'LInDays'
+      ParentColor = False
+    end
+  end
+  object LVTimeTrack: TListView
+    Left = 0
+    Height = 148
+    Top = 34
+    Width = 501
+    Align = alClient
+    Columns = <>
+    TabOrder = 2
+  end
+  object PTop: TPanel
+    Left = 0
+    Height = 34
+    Top = 0
+    Width = 501
+    Align = alTop
+    ClientHeight = 34
+    ClientWidth = 501
+    TabOrder = 3
+    object LTask: TLabel
+      Left = 9
+      Height = 19
+      Top = 8
+      Width = 87
+      Alignment = taRightJustify
+      Caption = 'Time use for'
+      ParentColor = False
+    end
+    object LTaskTitle: TLabel
+      Left = 101
+      Height = 19
+      Top = 8
+      Width = 66
+      Caption = 'LTaskTitle'
+      ParentColor = False
+    end
+  end
+end

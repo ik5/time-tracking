@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1330287238"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -vewnhi -l -Fl/opt/gnome/lib -Fu/home/ik/projects/foss/fpc/lazarus/components/tiopf/src/Compilers/FPC/lib/x86_64-linux/lcl -Fu/home/ik/projects/foss/fpc/lazarus/components/tiopf/src/Compilers/FPC/lib/x86_64-linux -Fu/home/ik/projects/foss/fpc/lazarus/lazarus/lcl/units/x86_64-linux/gtk2 -Fu/home/ik/projects/foss/fpc/lazarus/lazarus/lcl/units/x86_64-linux -Fu/home/ik/projects/foss/fpc/lazarus/lazarus/components/lazutils/lib/x86_64-linux -Fu/home/ik/projects/foss/fpc/lazarus/lazarus/packager/units/x86_64-linux &quot;-Fu/home/ik/projects/internal/time tracking - michael/&quot; -dLCL -dLCLgtk2 timetrack.lpr"/>
+</CONFIG>

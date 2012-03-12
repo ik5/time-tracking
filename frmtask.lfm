@@ -1,0 +1,147 @@
+object TaskForm: TTaskForm
+  Left = 568
+  Height = 426
+  Top = 591
+  Width = 560
+  Caption = 'TaskForm'
+  ClientHeight = 426
+  ClientWidth = 560
+  LCLVersion = '0.9.31'
+  object ETitle: TEdit
+    Left = 16
+    Height = 26
+    Top = 32
+    Width = 529
+    TabOrder = 0
+    Text = 'ETitle'
+  end
+  object MRemark: TMemo
+    Left = 17
+    Height = 160
+    Top = 152
+    Width = 528
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Lines.Strings = (
+      'MRemark'
+    )
+    TabOrder = 1
+  end
+  object LETitle: TLabel
+    Left = 16
+    Height = 23
+    Top = 8
+    Width = 177
+    AutoSize = False
+    Caption = '&Title'
+    FocusControl = ETitle
+    ParentColor = False
+  end
+  object LLCreatedOn: TLabel
+    Left = 280
+    Height = 22
+    Top = 8
+    Width = 104
+    Alignment = taRightJustify
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    Caption = 'Created on'
+    ParentColor = False
+  end
+  object LCreatedOn: TLabel
+    Left = 389
+    Height = 22
+    Top = 8
+    Width = 156
+    Anchors = [akTop, akRight]
+    AutoSize = False
+    Caption = 'LCreatedOn'
+    ParentColor = False
+  end
+  object LMRemarks: TLabel
+    Left = 17
+    Height = 19
+    Top = 128
+    Width = 53
+    Caption = '&Remark'
+    ParentColor = False
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 36
+    Top = 384
+    Width = 548
+    OKButton.Name = 'OKButton'
+    OKButton.Caption = '&OK'
+    HelpButton.Name = 'HelpButton'
+    HelpButton.Caption = '&Help'
+    HelpButton.Enabled = False
+    CloseButton.Name = 'CloseButton'
+    CloseButton.Caption = '&Close'
+    CloseButton.Enabled = False
+    CancelButton.Name = 'CancelButton'
+    CancelButton.Caption = 'Cancel'
+    TabOrder = 2
+    ShowButtons = [pbOK, pbCancel]
+  end
+  object CBProject: TComboBox
+    Left = 17
+    Height = 26
+    Top = 341
+    Width = 528
+    Anchors = [akLeft, akRight, akBottom]
+    ItemHeight = 0
+    TabOrder = 3
+    Text = 'CBProject'
+  end
+  object LCBProject: TLabel
+    Left = 21
+    Height = 19
+    Top = 316
+    Width = 49
+    Anchors = [akLeft, akBottom]
+    Caption = '&Project'
+    FocusControl = CBProject
+    ParentColor = False
+  end
+  object EBugID: TEdit
+    Left = 455
+    Height = 26
+    Top = 67
+    Width = 90
+    TabOrder = 4
+    Text = 'EBugID'
+  end
+  object LEBugID: TLabel
+    Left = 400
+    Height = 19
+    Top = 71
+    Width = 43
+    Anchors = [akTop, akRight]
+    Caption = 'B&ugID'
+    FocusControl = EBugID
+    ParentColor = False
+  end
+  object CBStatus: TComboBox
+    Left = 16
+    Height = 26
+    Top = 96
+    Width = 356
+    ItemHeight = 0
+    Items.Strings = (
+      'New'
+      'In progress'
+      'Done'
+    )
+    Style = csDropDownList
+    TabOrder = 5
+  end
+  object LCBStatus: TLabel
+    Left = 16
+    Height = 19
+    Top = 69
+    Width = 45
+    Caption = '&Status'
+    FocusControl = CBStatus
+    ParentColor = False
+  end
+end
